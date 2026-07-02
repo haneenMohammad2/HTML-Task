@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Task4</title>
+</head>
+<body>
+    <form>
+        <h4>Fill in your infomation </h4>
+
+        <fieldset>
+            <legend>Form</legend>
+            First name:<br>
+            <input type="text"><br>
+            Last name:<br>
+            <input type="text"><br>
+            Email:<br>
+            <input type="email">
+
+
+            <h4>Your Gender:</h4>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label><br>
+
+            <h4>Favorite Subjects</h4>
+            <input type="checkbox" value="C++">
+            <label>C++</label>
+            <input type="checkbox" value="Java">
+            <label>Java</label>
+            <input type="checkbox" value="C#">
+            <label>C#</label>
+            <input type="checkbox" value="PHP">
+            <label>PHP</label>
+            <input type="checkbox" value="SQL">
+            <label>SQL</label>
+
+            <h4>Your City</h4>
+            <label for="city">Your City:</label>
+
+            <select id="city" name="city">
+                <option value="amman">Amman</option>
+                <option value="zarqa">Zarqa</option>
+                <option value="irbid">Irbid</option>
+                <option value="aqaba">Aqaba</option>
+            </select><br>
+
+
+            <label>Upload your image:</label>
+            <input type="file" accept="image/*"><br><br>
+
+
+            <label for="about">Write about yourself:</label><br>
+
+            <textarea id="about" name="about" rows="5" cols="30"></textarea><br>
+             <input type="submit" value="Submit">
+
+
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
